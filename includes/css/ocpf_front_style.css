@@ -1,0 +1,167 @@
+.ocpf_table_main_div {
+    width: 100% !important;
+    display: inline-block;
+    margin: 30px 0px !important;
+    font-size: 20px;
+}
+.ocpf_table_main_div .add_multiple {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.ocpf_table_main_div a#add_mul {
+    padding: 10px 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+}
+.ocpf_table_main_div table.filter_tbl {
+    width: 100%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.ocpf_table_main_div .filter_tbl td div {
+    display: inline-block;
+}
+table.dataTable>tbody>tr.child span.dtr-title {
+    text-transform: capitalize;
+}
+#pro_table thead th, #pro_table tfoot th {
+    text-transform: capitalize;
+}
+#pro_table td, #pro_table th{
+   border: 1px solid #eee;
+   text-align: center;
+   vertical-align: middle;
+   word-break: inherit;
+   font-size: 12px !important;
+   padding: 5px !important;
+}
+#pro_table td:last-child {
+    min-width: 130px;
+}
+
+#pro_table input[type="checkbox"] {
+    width: 17px;
+    margin-left: 20px;
+}
+#pro_table .product_img_div {
+    width: 60px;
+    margin: 0 auto;
+}
+#pro_table .button {
+    height: auto;
+    padding: 6px 10px !important;
+}
+#pro_table .button img {
+    max-width: 20px !important;
+}
+.ocpf_table_main_div #pro_table .qty_box {
+    padding: 0px; 
+    width: 40px;
+    border: 1px solid #ccc !important;
+    margin-right: 10px;
+    height: 33px !important;
+    text-align: center;
+}
+/*theme change*/
+table.filter_tbl td, table.filter_tbl th{
+    border: none;
+    padding: 0px;
+}
+.ocpf_table_main_div input, .ocpf_table_main_div select {
+    height: 36px !important;
+    font-size: 15px !important;
+}
+.ocpf_table_main_div a.paginate_button {
+    padding: 2px 11px !important;
+}
+.star-rating.no_rated {
+    float: none !important;
+    margin: 5px auto !important;
+    font-size: 15px !important;
+}
+#pro_table .woocommerce-product-rating .star-rating {
+    float: none;
+}
+#pro_table .woocommerce-product-rating {
+    display: inline-block;
+    vertical-align: unset;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    top: 21px !important;
+    left: 14px !important;
+    height: 14px;
+    width: 14px;
+    line-height: 16px !important;
+}
+th.sorting_disabled {
+    min-width: 80px;
+    max-width: 80px;
+}
+ul.dtr-details {
+    width: 100%!important;
+    text-align: left;
+}
+.dtr-data .star-rating.no_rated {
+    float: none !important;
+    margin: 5px 0px !important;
+    font-size: 15px !important;
+    display: inline-block;
+}
+a.button.single_add.disabled{
+    pointer-events: none;
+}
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0.755em;
+    font-size: 15px;
+}
+div#pro_table_info {
+    font-size: 15px;
+}
+table#pro_table{
+    margin-top: 15px;
+    display: inline-block;
+}
+a#pro_table_next {
+    border: none !important;
+}
+a#pro_table_previous {
+    border: none!important;
+}
+a.paginate_button {
+    border: 1px solid #ccc!important;
+}
+
+@media screen and (max-width: 767px) {
+    .ocpf_table_main_div .filter_tbl td div {
+        display: inline-block;
+        width: 100%;
+        float: left;
+    }
+    .ocpf_table_main_div input, .ocpf_table_main_div select{
+        display: inline-block;
+        width: 100%;
+    }
+    table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+        top: 27px !important;
+    }
+    table#pro_table tr td:first-child {
+        padding-left: 50px!important;
+        word-break: break-all;
+    }
+    table#pro_table tr.child td:first-child {
+        padding-left: 10px!important;
+        word-break: break-all;
+    }
+    table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 100%;
+        background-color: #eee;
+        top: 0px;
+        left: 45px;
+    }
+}
